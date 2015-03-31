@@ -8,6 +8,7 @@ Requirements
 ------------
 
   - learn_puppet_centos-6.5-pe-3.7.1-ptb-ovf
+  - VirtualBox 4.3.24 (Network-> Bridge Adapter Promiscuous Mode-> Allaow All)
 
 ### Commands:
 
