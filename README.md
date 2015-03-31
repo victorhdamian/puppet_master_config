@@ -9,6 +9,7 @@ Requirements
 
   - learn_puppet_centos-6.5-pe-3.7.1-ptb-ovf
   - VirtualBox 4.3.24 (Network-> Bridge Adapter Promiscuous Mode-> Allaow All)
+  - https://github.com/victorhdamian/puppet_master_hiera_config.git
 
 ### Commands:
 
