@@ -13,13 +13,13 @@ Requirements
 
 ### Commands:
 
-cd /tmp
-git clone https://github.com/victorhdamian/puppet_master_config.git
-puppet module install zack/r10k
-puppet apply configure_r10k.pp
-puppet apply configure_directory_environments.pp
-rm -Rf /etc/puppetlabs/puppet/environments/production/*
-r10k deploy environment -pv
+    cd /tmp
+    git clone https://github.com/victorhdamian/puppet_master_config.git
+    puppet module install zack/r10k
+    puppet apply configure_r10k.pp
+    puppet apply configure_directory_environments.pp
+    rm -Rf /etc/puppetlabs/puppet/environments/production/*
+    r10k deploy environment -pv
 
 
 Example
