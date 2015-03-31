@@ -22,11 +22,13 @@ r10k deploy environment -pv
 
 Example
 -------
-[root@learning ~]# cd /tmp
-[root@learning /tmp]# git clone https://github.com/victorhdamian/puppet_master_config.git
-Initialized empty Git repository in /tmp/puppet_master_config/.git/
-remote: Counting objects: 31, done.
-remote: Compressing objects: 100% (31/31), done.
+
+    [root@learning ~]# cd /tmp
+    [root@learning /tmp]# git clone https://github.com/victorhdamian/puppet_master_config.git
+    Initialized empty Git repository in /tmp/puppet_master_config/.git/
+    remote: Counting objects: 31, done.
+    remote: Compressing objects: 100% (31/31), done.
+
 remote: Total 31 (delta 13), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (31/31), done.
 [root@learning /tmp]# cd puppet*
