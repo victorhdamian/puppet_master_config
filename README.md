@@ -16,10 +16,17 @@ Requirements
     cd /tmp
     git clone https://github.com/victorhdamian/puppet_master_config.git
     cd puppet_master_config
+    # Installs zack/r10k wich.This is the r10k setup module. 
+    # It has a base class to configure r10k to synchronize dynamic environments. 
     puppet module install zack/r10k
+    # Configures r10k and hiera in the r10k.yaml file
+    # uses the https://github.com/victorhdamian/puppet_master_config.git
     puppet apply configure_r10k.pp
+    # Creates and configures the environmnets.pp
     puppet apply configure_directory_environments.pp
+    # Clean the existing environments/production https://github.com/puppetlabs/r10k/issues/170
     rm -Rf /etc/puppetlabs/puppet/environments/production/*
+    # Deploy all environments and Puppetfile specified modules with vervose output 
     r10k deploy environment -pv
 
 
