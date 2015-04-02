@@ -14,6 +14,13 @@ mod "puppetlabs/git"
 mod "puppetlabs/concat"
 mod "gentoo/portage"
 mod "zack/r10k"
+mod "nanliu-staging"
+mod "puppetlabs/splunk"
+mod "puppetlabs/apt"
+mod "puppetlabs/java"
+mod "darin/zypprepo"
+mod "rtyler/jenkins"
+mod "puppetlabs/nginx"
 
 # Modules from Github using various references
 mod 'notifyme',
