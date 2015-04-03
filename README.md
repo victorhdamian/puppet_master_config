@@ -156,7 +156,7 @@ Example
     ├── puppetlabs-pe_staging (v0.3.3-2-g3ed56f8)
     └── puppetlabs-puppet_enterprise (v3.7.1-90-g4a9e885)
     
-### Environments usage:
+### Environments simple usage workflow:
 
     # create new branch
     git checout -b <branch name>
