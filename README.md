@@ -163,6 +163,8 @@ Example
     # execute work add, edit save
     # commit work on branch <branch name>
     git commit -m "commit work"
+    # push changes to the branch
+    git push -u origin <brach_name>
     # return to production
     git checkout producttion
     # merge the branch into production
