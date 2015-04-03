@@ -173,5 +173,7 @@ Example
     git push origin production
     # delete brach
     git push origin :<brach name>
+    # deploy changes tothe environments with r10k
+    r10k deploy environment -pv 
 
       
