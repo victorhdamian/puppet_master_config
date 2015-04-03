@@ -11,7 +11,7 @@ Requirements
   - VirtualBox 4.3.24 (Network-> Bridge Adapter Promiscuous Mode-> Allaow All)
   - https://github.com/victorhdamian/puppet_master_hiera_config.git
 
-### Commands:
+### Setup Commands:
 
     cd /tmp
     git clone https://github.com/victorhdamian/puppet_master_config.git
@@ -155,3 +155,18 @@ Example
     ├── puppetlabs-pe_repo (v0.7.7-51-g5ba0427)
     ├── puppetlabs-pe_staging (v0.3.3-2-g3ed56f8)
     └── puppetlabs-puppet_enterprise (v3.7.1-90-g4a9e885)
+ ### Setup Commands:
+      # create new branch
+      git checout -b <branch name>
+      # execute work add, edit save
+      # commit work on branch <branch name>
+      git commit -m "commit work"
+      # return to production
+      git checkout producttion
+      # merge the branch into production
+      git merge <branch name>
+      # push production with new branch changes merged
+      git push origin production
+      # delete brach
+      git push origin :<brach name>
+      
