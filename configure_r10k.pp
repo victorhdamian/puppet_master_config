@@ -10,7 +10,7 @@ class { 'r10k':
   version           => '1.4.2',
   sources           => {
     'puppet' => {
-      'remote'  => 'ssh://git@github.com/victorhdamian/puppet_master_config.git',
+      'remote'  => 'https://github.com/victorhdamian/puppet_master_config',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     },
