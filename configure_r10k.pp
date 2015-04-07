@@ -10,12 +10,12 @@ class { 'r10k':
   version           => '1.4.2',
   sources           => {
     'puppet' => {
-      'remote'  => 'https://github.com/victorhdamian/puppet_master_config.git',
+      'remote'  => 'ssh://git@github.com/victorhdamian/puppet_master_config.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     },
    'hiera' => {
-      'remote'  => 'https://github.com/victorhdamian/puppet_master_hiera_config.git',
+      'remote'  => 'ssh://git@github.com/victorhdamian/puppet_master_hiera_config.git',
       'basedir' => "${::settings::confdir}/hiera",
       'prefix'  => true,
     }
