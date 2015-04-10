@@ -14,11 +14,6 @@ class { 'r10k':
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     },
-   'hiera' => {
-      'remote'  => 'ssh://git@github.com/victorhdamian/puppet_master_hiera_config.git',
-      'basedir' => "${::settings::confdir}/hiera",
-      'prefix'  => true,
-    }
   },
   purgedirs         => ["${::settings::confdir}/environments"],
   manage_modulepath => true,
